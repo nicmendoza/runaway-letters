@@ -4,6 +4,7 @@ Runaway letters
 Created this fun little jquery plugin which lets you animate words or letters in an element within a radius of the cursor.
 
 Usage
+
 	//default
 	$(element).runawayLetters();
 
