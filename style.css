@@ -1,0 +1,56 @@
+body {
+	font-size: 16pt;
+	line-height: 1.25em;
+	background-color: black;
+	color: white;
+	visibility:hidden;
+}
+
+span {
+	position: relative;
+	/*-webkit-transition: top .1s, left .1s;*/
+}
+
+span.hover {
+	visibility: visible;
+}
+
+[data-hover-proximity="1"]{
+	color: white;
+}
+
+[data-hover-proximity="2"]{
+	color: #EEE;
+}
+
+[data-hover-proximity="3"]{
+	color: #DDD;
+}
+
+[data-hover-proximity="4"]{
+	color: #CCC;
+}
+
+[data-hover-proximity="5"]{
+	color: #BBB;
+}
+
+[data-hover-proximity="6"]{
+	color: #AAA;
+}
+
+[data-hover-proximity="7"]{
+	color: #999;
+}
+
+[data-hover-proximity="8"]{
+	color: #888;
+}
+
+[data-hover-proximity="9"]{
+	color: #555;
+}
+
+[data-hover-proximity="10"]{
+	color: #333;
+}

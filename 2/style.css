@@ -1,0 +1,15 @@
+body {
+	font-size: 16pt;
+	line-height: 1.25em;
+
+}
+
+span {
+	position: relative;
+	/*-webkit-transition: top .1s, left .1s;*/
+	color: #666
+}
+
+span.hover {
+	color: red;
+}
